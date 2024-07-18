@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 8%;
+  background: rgb(3, 1, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* Specify the background image */
+    background-image: url('wdef.jpg');
+    /* Set background image size */
+    background-size: cover; /* or contain */
+    /* Set background image position */
+    background-position: center; /* or any other position */
+    /* Set background attachment */
+    background-attachment: fixed; /* or scroll */
+    /* Set background color as fallback */
+    background-color: #f8f8f8; /* Fallback color if image doesn't load */
+}
+  
+.content {
+  padding: 20px;
+}
+
+.container{
+    padding: 0.5%; 
+    margin-top: 140px;
+    text-align: center;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: rgb(3, 1, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+  }
+  
+  .logo {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .header img {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+  
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: rgb(183, 177, 177);
+    font-weight: bold;
+  }
+  
+  
+  /* Footer styles */
+  footer {
+    background: rgb(3, 1, 40);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+#page-editor-content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  #page-editor-content2 {
+      width: 100%;
+      height:auto ;
+      padding: 20px;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/workout-4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+  
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/workout-7.jpeg");
+      
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .editor-content-holder{
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      border-radius: 10px;
+  }
+  
+  
+  .editor-details{
+      width: 100%;
+      height: 180px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+  }
+  .editor-details > h2{
+      color: rgb(209, 208, 208);
+      margin-bottom: 20px;
+      font-size: 25px;
+  }
+  
+  .tasks{
+      width: 100%;
+      height: auto;
+      background-color: rgb(0, 0, 0,0.7);
+      padding: 20px;
+      color: rgb(255, 255, 255);
+      border-radius: 8px;
+      margin-bottom: 25px;
+  }
+  .tasks > p{
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 1.5;
+  }
+  
+  .visit-btn{
+      width: 80px;
+      height: 40px;
+      border-radius: 8px;
+      border: 2px solid crimson;
+      background-color: crimson;
+      color: white;
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: 900;
+      transition: background-color 0.3s ease-in-out;
+  
+  }
+  
+  .visit-btn:hover{
+      background-color: transparent;
+      cursor: pointer;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
